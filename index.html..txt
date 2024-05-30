@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obst und Gemüse Kaya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Obst und Gemüse Kaya</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Startseite</a></li>
+                <li><a href="#produkte">Produkte</a></li>
+                <li><a href="#bestellen">Bestellen</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Willkommen bei Obst und Gemüse Kaya</h2>
+        <p>Frische und gesunde Produkte direkt vom Bauernhof zu Ihnen nach Hause.</p>
+    </section>
+
+    <section id="produkte">
+        <h2>Unsere Produkte</h2>
+        <ul>
+            <li>Äpfel - 2,50 € / kg</li>
+            <li>Bananen - 1,80 € / kg</li>
+            <li>Karotten - 1,20 € / kg</li>
+            <li>Tomaten - 3,00 € / kg</li>
+            <!-- Füge weitere Produkte hier hinzu -->
+        </ul>
+    </section>
+
+    <section id="bestellen">
+        <h2>Bestellen</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="produkte">Produkte:</label>
+            <textarea id="produkte" name="produkte" required></textarea>
+            <button type="submit">Bestellen</button>
+        </form>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Email: info@obstundgemuesekaya.de</p>
+        <p>Telefon: 01234 567890</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="nachricht">Nachricht:</label>
+            <textarea id="nachricht" name="nachricht" required></textarea>
+            <button type="submit">Senden</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Obst und Gemüse Kaya</p>
+    </footer>
+</body>
+</html>
